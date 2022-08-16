@@ -56,9 +56,10 @@ public class javaSecond {
                 }
                 System.out.println("In total, there is $" + total + " in the bank");
             } else if (userInput == -1) {
-
+                System.out.println(userInput);
+                System.exit(-1);
             } else {
-
+                System.out.println("Error: Invalid input");
             }
         }
     }
